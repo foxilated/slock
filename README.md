@@ -1,3 +1,6 @@
+My personal [slock](https://dwm.suckless.org/) config with [slock-flexipatch](https://github.com/bakkeby/slock-flexipatch)
+<br>
+
 Similar to [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch) this slock 1.5 (4f04554,
 2022-10-04) project has a different take on patching. It uses preprocessor directives to decide
 whether or not to include a patch during build time. Essentially this means that this build, for
