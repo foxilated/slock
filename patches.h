@@ -19,7 +19,7 @@
 /* This patch allows for a command to be executed after a specified time of inactivity.
  * https://tools.suckless.org/slock/patches/auto-timeout/
  */
-#define AUTO_TIMEOUT_PATCH 0
+#define AUTO_TIMEOUT_PATCH 1
 
 /* This patch adds a background image for slock.
  * This patch depends on the Imlib2 library, uncomment the relevant line in
@@ -35,7 +35,7 @@
  * The background image patch takes precedence over this patch.
  * https://tools.suckless.org/slock/patches/blur-pixelated-screen/
  */
-#define BLUR_PIXELATED_SCREEN_PATCH 0
+#define BLUR_PIXELATED_SCREEN_PATCH 1
 
 /* This patch introduces an additional color to indicate the state of Caps Lock.
  * https://tools.suckless.org/slock/patches/capscolor/
@@ -72,12 +72,12 @@
  * and the password can be entered then.
  * https://tools.suckless.org/slock/patches/dpms/
  */
-#define DPMS_PATCH 0
+#define DPMS_PATCH 1
 
 /* This patch draws the dwm logo which changes color based on the state.
  * https://tools.suckless.org/slock/patches/dwmlogo/
  */
-#define DWM_LOGO_PATCH 0
+#define DWM_LOGO_PATCH 1
 
 /* This patch allows for a command to be run after a specified number of incorrect attempts.
  * https://tools.suckless.org/slock/patches/failure-command/
