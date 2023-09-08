@@ -6,9 +6,9 @@ static const char *colorname[NUMCOLS] = {
 	#if DWM_LOGO_PATCH && !BLUR_PIXELATED_SCREEN_PATCH
 	[BACKGROUND] =  "#2d2d2d", /* after initialization */
 	#endif // DWM_LOGO_PATCH
-	[INIT] =   "black",     /* after initialization */
-	[INPUT] =  "#005577",   /* during input */
-	[FAILED] = "#CC3333",   /* wrong password */
+	[INIT] =   "#8AFF80",     /* after initialization */
+	[INPUT] =  "#84FFF3",   /* during input */
+	[FAILED] = "#FF80BF",   /* wrong password */
 	#if CAPSCOLOR_PATCH
 	[CAPS] =   "red",       /* CapsLock on */
 	#endif // CAPSCOLOR_PATCH
@@ -22,7 +22,7 @@ static const char *colorname[NUMCOLS] = {
 
 #if MESSAGE_PATCH || COLOR_MESSAGE_PATCH
 /* default message */
-static const char * message = "COMPUTER LOCKED";
+static const char * message = "Do you want to enter the void?";
 
 /* text color */
 static const char * text_color = "#ffffff";

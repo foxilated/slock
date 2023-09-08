@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/khaled/stuff/code/slock",
+            "binaryPath": "/home/khaled/stuff/code/slock/slock",
+            "binaryArgs": []
+        }
+    ]
+}
