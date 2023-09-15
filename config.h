@@ -10,7 +10,7 @@ static const char *colorname[NUMCOLS] = {
 	[INPUT] =  "#84FFF3",   /* during input */
 	[FAILED] = "#FF80BF",   /* wrong password */
 	#if CAPSCOLOR_PATCH
-	[CAPS] =   "red",       /* CapsLock on */
+	[CAPS] =   "#FF80BF",       /* CapsLock on */
 	#endif // CAPSCOLOR_PATCH
 	#if PAMAUTH_PATCH
 	[PAM] =    "#9400D3",   /* waiting for PAM */
@@ -22,7 +22,7 @@ static const char *colorname[NUMCOLS] = {
 
 #if MESSAGE_PATCH || COLOR_MESSAGE_PATCH
 /* default message */
-static const char * message = "Do you want to enter the void?";
+static const char * message = "Do you wish to enter the void?";
 
 /* text color */
 static const char * text_color = "#ffffff";
@@ -87,7 +87,7 @@ ResourcePref resources[] = {
 
 #if ALPHA_PATCH
 /* lock screen opacity */
-static const float alpha = 0.9;
+static const float alpha = 0.8;
 #endif // ALPHA_PATCH
 
 /* treat a cleared input like a wrong password (color) */
@@ -101,7 +101,7 @@ static const int timeoffset = 60;
 static const int runonce = 0;
 
 /* command to be run after [time] has passed */
-static const char *command = "doas poweroff";
+static const char *command = "sudo poweroff";
 #endif // AUTO_TIMEOUT_PATCH
 
 #if FAILURE_COMMAND_PATCH
