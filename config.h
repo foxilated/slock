@@ -87,7 +87,7 @@ ResourcePref resources[] = {
 
 #if ALPHA_PATCH
 /* lock screen opacity */
-static const float alpha = 0.8;
+static const float alpha = 0.0001;
 #endif // ALPHA_PATCH
 
 /* treat a cleared input like a wrong password (color) */
