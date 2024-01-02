@@ -1,10 +1,10 @@
 /* user and group to drop privileges to */
 static const char *user  = "khaled";
-static const char *group = "khaled"; // use "nobody" for arch
+static const char *group = "nobody"; // use "nobody" for arch
 
 static const char *colorname[NUMCOLS] = {
 	#if DWM_LOGO_PATCH && !BLUR_PIXELATED_SCREEN_PATCH
-	[BACKGROUND] =  "#2d2d2d", /* after initialization */
+	[BACKGROUND] =  "#111115", /* after initialization */
 	#endif // DWM_LOGO_PATCH
 	[INIT] =   "#8AFF80",     /* after initialization */
 	[INPUT] =  "#84FFF3",   /* during input */
@@ -22,7 +22,7 @@ static const char *colorname[NUMCOLS] = {
 
 #if MESSAGE_PATCH || COLOR_MESSAGE_PATCH
 /* default message */
-static const char * message = "Do you wish to enter the void?";
+static const char * message = "Welcome, Dark Knight, Do you wish to enter the void?";
 
 /* text color */
 static const char * text_color = "#ffffff";
@@ -33,7 +33,7 @@ static const char * font_name = "6x10";
 
 #if BACKGROUND_IMAGE_PATCH
 /* Background image path, should be available to the user above */
-static const char * background_image = "~/stuff/constants/void-linux.png";
+static const char * background_image = "/home/khaled/stuff/constants/wallpaper.png";
 #endif // BACKGROUND_IMAGE_PATCH
 
 

@@ -14,12 +14,12 @@
  * Extrapolated from https://github.com/khuedoan/slock
  * https://github.com/khuedoan/slock/commit/5e7a95b50fd72efcf2a40d487278749a17cbb146
  */
-#define ALPHA_PATCH 1
+#define ALPHA_PATCH 0
 
 /* This patch allows for a command to be executed after a specified time of inactivity.
  * https://tools.suckless.org/slock/patches/auto-timeout/
  */
-#define AUTO_TIMEOUT_PATCH 1
+#define AUTO_TIMEOUT_PATCH 0
 
 /* This patch adds a background image for slock.
  * This patch depends on the Imlib2 library, uncomment the relevant line in
@@ -35,12 +35,12 @@
  * The background image patch takes precedence over this patch.
  * https://tools.suckless.org/slock/patches/blur-pixelated-screen/
  */
-#define BLUR_PIXELATED_SCREEN_PATCH 1
+#define BLUR_PIXELATED_SCREEN_PATCH 0
 
 /* This patch introduces an additional color to indicate the state of Caps Lock.
  * https://tools.suckless.org/slock/patches/capscolor/
  */
-#define CAPSCOLOR_PATCH 1
+#define CAPSCOLOR_PATCH 0
 
 /* Based on the message patch this patch lets you add a message to your lock screen using 24 bit
  * color ANSI escape codes.
@@ -77,7 +77,7 @@
 /* This patch draws the dwm logo which changes color based on the state.
  * https://tools.suckless.org/slock/patches/dwmlogo/
  */
-#define DWM_LOGO_PATCH 1
+#define DWM_LOGO_PATCH 0
 
 /* This patch allows for a command to be run after a specified number of incorrect attempts.
  * https://tools.suckless.org/slock/patches/failure-command/
@@ -102,7 +102,7 @@
  * configuration in config.mk. Look for and uncomment the XINERAMA placeholder.
  * https://tools.suckless.org/slock/patches/message/
  */
-#define MESSAGE_PATCH 1
+#define MESSAGE_PATCH 0
 
 /* Replaces shadow support with PAM authentication support.
  * Change variable pam_service in config.def.h to the corresponding PAM service.
